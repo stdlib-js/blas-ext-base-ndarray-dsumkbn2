@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-dsumkbn2@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-ndarray-dsumkbn2/tags). For example,
+
+```javascript
 import dsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-dsumkbn2@v0.1.1-esm/index.mjs';
 ```
 
@@ -99,7 +104,7 @@ The function has the following parameters:
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import dsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-dsumkbn2@v0.1.1-esm/index.mjs';
+import dsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-dsumkbn2@esm/index.mjs';
 
 var xbuf = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
